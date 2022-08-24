@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'Silkscreen-Regular';
+    src: url('./fonts/Silkscreen-Regular.ttf');
+}
+
+@font-face {
+    font-family: "fontAwesome-regular";
+    src: url('./fonts/fontAwesome/fa-regular-400.woff2');
+    font-weight: 400;
+  }
+  
+  @font-face {
+    font-family: 'fontAwesome-duotone';
+    src: url('./fonts/fontAwesome/fa-duotone-900.woff2');
+    font-weight: 900;
+  }
+  
+  @font-face {
+    font-family: "fontAwesome-light";
+    src: url("./fonts/fontAwesome/fa-light-300.woff2");
+    font-weight: 300;
+  }
+  
+  @font-face {
+    font-family: "fontAwesome-brands";
+    src: url("./fonts/fontAwesome/fa-brands-400.woff2");
+    font-weight: 400;
+  }
+  
+  @font-face {
+    font-family: "fontAwesome-solid";
+    src: url("./fonts/fontAwesome/fa-solid-900.woff2");
+    font-weight: 900;
+  }
+  
+  .fa-brands {
+    font-family: "fontAwesome-brands";
+    font-style: normal;
+  }
+  
+  .fa-duotone {
+    font-family: "fontAwesome-duotone";
+    font-style: normal;
+  } 
+  
+  .fa-solid{
+    font-family: 'fontAwesome-solid';
+    font-style: normal;
+  }
+  
+  .fa-regular {
+    font-family: 'fontAwesome-regular';
+    font-style: normal;
+  }
+  
+  .fa-light, .fa-thin{
+    font-family: 'fontAwesome-light';
+    font-style: normal;
+  }

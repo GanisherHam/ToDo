@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Silkscreen-Regular', cursive;
+}
+
+body {
+    background: linear-gradient(276deg, rgba(14,163,175,1) 0%, rgba(9,9,121,1) 49%, rgba(0,212,255,1) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    padding: 50px;
+    border-radius: 20px;
+    background-image: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+
+.form {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.new-task {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+}
+
+input {
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 12px;
+    font-size: 16px;
+    color: blueviolet;
+    background-color: rgb(231, 239, 239);
+}
+
+input::placeholder{
+    font-size: 20px;
+    color: blueviolet;
+}
+
+button {
+    padding: 12px;
+    font-size: 16px;
+    color: #fff;
+    background-color: blueviolet;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    margin-left: 5px;
+    font-family: 'Silkscreen-Regular', cursive;
+}
+
+.save::after {
+    content: '\f02e';
+    margin-left: 10px;
+    font-family: 'fontAwesome-solid';
+}
+
+.btn::after{
+    content: '\f303';
+    margin-left: 10px;
+    font-family: 'fontAwesome-solid';
+}
+
+.btn2::after{
+    content: '\f146';
+    margin-left: 10px;
+    font-family: 'fontAwesome-solid';
+}
+
+.btn3::after {
+    content: '\f02e';
+    margin-left: 10px;
+    font-family: 'fontAwesome-solid';
+}
+
+button:hover {
+    color: blueviolet;
+    background-color: #fff;
+    transition: all .6s;
+}
+
