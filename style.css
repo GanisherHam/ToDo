@@ -84,9 +84,3 @@ button {
     margin-left: 10px;
     font-family: 'fontAwesome-solid';
 }
-
-button:hover, .log-out a:hover {
-    color: blueviolet;
-    background-color: #fff;
-    transition: all .6s;
-}
