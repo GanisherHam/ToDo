@@ -87,6 +87,7 @@ function toDo() {
         if (button.innerHTML == "rewrite") {
           button.innerHTML = "save";
           input.readOnly = false;
+          input.focus();
           button.classList.add("btn3");
           button.classList.remove("btn");
         } else {

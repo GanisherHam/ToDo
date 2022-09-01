@@ -13,6 +13,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .container {
@@ -84,9 +85,8 @@ button {
     font-family: 'fontAwesome-solid';
 }
 
-button:hover {
+button:hover, .log-out a:hover {
     color: blueviolet;
     background-color: #fff;
     transition: all .6s;
 }
-
